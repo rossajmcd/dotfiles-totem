@@ -1,2 +1,3 @@
 alias es='/usr/bin/emacs --daemon'
-alias emacs='/usr/bin/emacsclient -c -n'
+# fast emacs, for use as default editor
+alias femacs='/usr/bin/emacsclient -c -n'
