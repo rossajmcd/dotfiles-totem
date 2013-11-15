@@ -1,0 +1,6 @@
+alias sbtcl='sbt clean'
+alias sbtr='sbt reload'
+alias sbtc='sbt compile'
+alias sbtpk='sbt package'
+alias sbtd='sbt doc'
+alias sbtp='sbt publish-local'
