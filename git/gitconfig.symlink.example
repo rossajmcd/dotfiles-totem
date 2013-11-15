@@ -21,7 +21,6 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = femacs # fast emacs
 [apply]
         whitespace = nowarn
 [mergetool]
