@@ -21,7 +21,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        emacsclient -c -n
+        emacsclient -ct
 [apply]
         whitespace = nowarn
 [mergetool]
