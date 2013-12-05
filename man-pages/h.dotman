@@ -1,0 +1,17 @@
+.\" Manpage for h.
+.\" Contact ross@voxmachina.org to correct errors or typos.
+.TH man 1 "05 Dec 2013" "1.0" "h man page"
+.SH NAME
+h \- change directory to home directory
+.SH SYNOPSIS
+h [RETURN]
+.SH DESCRIPTION
+h lets you change your current directory to the user home directory by typing h followed by [return].
+.SH OPTIONS
+h does not take any parameters.
+.SH SEE ALSO
+cd
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Ross (ross@voxmachina.org)

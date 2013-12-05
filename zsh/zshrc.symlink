@@ -1,12 +1,8 @@
+# home
+export ROOT=~/
+
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
-
-# your project folder that we can `p [return]` to
-export PROJECTS=~/Projects
-
-# your project folder that we can `d [return]` to
-export DOCUMENTS=~/Documents
-
 
 # use .localrc for SUPER SECRET CRAP that you don't
 # want in your public, versioned repo.

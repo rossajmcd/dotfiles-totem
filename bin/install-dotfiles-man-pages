@@ -1,0 +1,20 @@
+#!/bin/zsh
+
+# all of our dotfiles man pages
+#echo $HOME
+#typeset -U man_files
+#man_files=($HOME/**/man-pages/*)
+
+# install all man files
+#for file in $man_files
+#do
+#  echo $file
+  #sudo install -g 0 -o 0 -m 0644 h.1 /usr/local/man/man1/
+  #sudo gzip /usr/local/man/man1/h.1
+  #source $file
+#done
+
+#cd $HOME/.dotfiles/man-pages
+#cp h.man h.1
+#sudo install -g 0 -o 0 -m 0644 h.1 /usr/local/man/man1/
+#sudo gzip /usr/local/man/man1/h.1
