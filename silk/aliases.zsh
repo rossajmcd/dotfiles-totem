@@ -1,0 +1,1 @@
+alias spn="silk spin"
