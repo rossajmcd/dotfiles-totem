@@ -20,7 +20,10 @@ A few samples are provided including:
 
 ## Getting Started
 
-Clone into *.dotfiles*.
+* Clone into *.dotfiles*
+* Install any modules you like the look of or build your own, (see dotfiles-totem-portable as an example).
+* Create a ~/.localzsh file to include your modules
+    * source $HOME/.dotfiles-my-module/zsh/zsh.init
 
 
 
