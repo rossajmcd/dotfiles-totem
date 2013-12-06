@@ -80,7 +80,12 @@ directory_name() {
   echo "%{$fg_bold[cyan]%}%1/%\/%{$reset_color%}"
 }
 
-export PROMPT=$'\n$(user_name)$(server_name) $(rb_prompt)in $(directory_name) $(git_dirty)$(need_push)\n› '
+if [[ -n "${OVERRIDE_PROMPT}" ]]; then
+  export PROMPT=$OVERRIDE_PROMPT
+else
+  export PROMPT=$'\n$(user_name)$(server_name) $(rb_prompt)in $(directory_name) $(git_dirty)$(need_push)\n› '
+fi
+
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
