@@ -68,6 +68,10 @@ rb_prompt() {
   fi
 }
 
+user_name() {
+  echo "%{$fg_bold[magenta]%}%n%{$reset_color%}"
+}
+
 server_name() {
   echo "%{$fg_bold[magenta]%}@%m%{$reset_color%}"
 }
@@ -76,7 +80,7 @@ directory_name() {
   echo "%{$fg_bold[cyan]%}%1/%\/%{$reset_color%}"
 }
 
-export PROMPT=$'\n$(server_name) $(rb_prompt)in $(directory_name) $(git_dirty)$(need_push)\n› '
+export PROMPT=$'\n$(user_name)$(server_name) $(rb_prompt)in $(directory_name) $(git_dirty)$(need_push)\n› '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
