@@ -9,6 +9,6 @@ echo installing the following man pages...
 for file in $man_files
 do
   echo ${file##*/}
-  sudo install -g 0 -o 0 -m 0644 $file /usr/local/man/man1/
-  sudo gzip /usr/local/man/man1/${file##*/}
+  sudo install -g 0 -o 0 -m 0644 $file /usr/share/man/man1/
+  sudo gzip /usr/share/man/man1/${file##*/}
 done
