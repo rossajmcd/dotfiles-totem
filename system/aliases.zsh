@@ -8,6 +8,6 @@ then
   alias la='grc ls -la'
 else
   alias ls="ls -F --color"
-  alias ll="ls -l --color"
-  alias la="ls -la --color"
+  alias ll="ls -lah --color"
+  alias la="ls -lah --color"
 fi
