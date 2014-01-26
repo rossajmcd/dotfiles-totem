@@ -4,8 +4,8 @@
 if $(gls &>/dev/null)
 then
   alias ls="grc ls"
-  alias ll="grc ls -l"
-  alias la='grc ls -la'
+  alias ll="grc ls -lah"
+  alias la='grc ls -lah'
 else
   alias ls="ls -F --color"
   alias ll="ls -lah --color"
