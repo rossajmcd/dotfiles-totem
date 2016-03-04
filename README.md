@@ -20,7 +20,7 @@ A few samples are provided including:
 
 ## Requirements
 
-* `brew install coreutils
+* `brew install coreutils`
 
 
 
