@@ -14,7 +14,13 @@ A few samples are provided including:
 
 * scripts for installing / configuring
 * a function which lets you navigate to your home directory by typing h [return]
-    * a man page for the command 
+    * a man page for the command
+
+
+
+## Requirements
+
+* `brew install coreutils
 
 
 
