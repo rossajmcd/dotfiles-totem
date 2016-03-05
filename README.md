@@ -31,7 +31,8 @@ A few samples are provided including:
 * Create a ~/.localzsh file to include your modules
     * source $HOME/.dotfiles-my-module/zsh/zsh.init
 * Backup any existing ~/.zshrc
-* Copy the .zshrc.sample file at the root of this project to ~/.zshrc
+* `cd ~/.dotfiles`
+* `ln -sf zsh/zshrc.symlink .zshrc`
 
 
 
