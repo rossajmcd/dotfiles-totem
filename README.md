@@ -20,19 +20,18 @@ A few samples are provided including:
 
 ## Requirements
 
+* OSX (sorry - Linux support is on the cards)
 * `brew install coreutils`
 
 
 
 ## Getting Started
 
-* Clone into *.dotfiles*
+* Clone into *.dotfiles-totem*
 * Install any modules you like the look of or build your own, (see dotfiles-totem-portable as an example).
-* Create a ~/.localzsh file to include your modules
-    * source $HOME/.dotfiles-my-module/zsh/zsh.init
 * Backup any existing ~/.zshrc
-* `cd ~/.dotfiles`
-* `ln -sf zsh/zshrc.symlink .zshrc`
+* `ln -sf .dotfiles-totem/zsh/zshrc.symlink .zshrc`
+* `./dotfiles-totem/install`
 
 
 
